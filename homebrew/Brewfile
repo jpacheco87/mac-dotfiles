@@ -1,6 +1,9 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "hashicorp/tap"
+# Terraform Infrastructure as Code interface
+brew "hashicorp/tap/terraform"
 # Library for command-line editing
 brew "readline"
 # Official Amazon AWS command-line interface
