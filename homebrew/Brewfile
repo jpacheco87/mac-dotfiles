@@ -62,6 +62,7 @@ cask "brave-browser"
 cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
+cask "podman-desktop"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Developer targeted fonts with a high number of glyphs
