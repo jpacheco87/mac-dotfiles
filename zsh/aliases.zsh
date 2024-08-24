@@ -6,6 +6,18 @@ alias sleep='pmset sleepnow'
 alias c='clear'
 alias e='exit'
 
+# Kubernetes
+alias k="kubectl"
+alias h="helm"
+
+# Terraform
+alias tf="terraform"
+
+# Ansible
+alias a="ansible"
+alias ap="ansible-playbook"
+alias ag="ansible-galaxy"
+
 # Git
 alias g='git'
 alias ga='git add'
@@ -71,14 +83,19 @@ alias vi='poetry_run_nvim'
 alias v='poetry_run_nvim'
 
 # Folders
-alias doc="$HOME/Documents"
-alias dow="$HOME/Downloads"
+alias doc="cd $HOME/Documents"
+alias dow="cd $HOME/Downloads"
+alias prj="cd $HOME/dev/git_sites"
+alias ado="cd $HOME/dev/git_sites/ado"
+alias bb="cd $HOME/dev/git_sites/bitbucket"
+alias gh="cd $HOME/dev/git_sites/github"
+alias gt="cd $HOME/dev/git_sites/gitea"
 
 # Ranger
 alias r=". ranger"
 
 # Better ls
 alias ls="eza --all --icons=always"
-
+alias ll="eza --all --icons=always -l"
 # Lazygit
 alias lg="lazygit"
